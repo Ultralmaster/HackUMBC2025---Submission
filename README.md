@@ -15,47 +15,47 @@ This Python script performs the following:
 **Basic Usage (Bash):** python SongRipper.py https://www.youtube.com/watch?v=abc123XYZ
 
 
-#CLI Arguments
-##Positional Argument
-  ````url````
-Description: YouTube URL to download the thumbnail and perform OCR.
-Example: https://www.youtube.com/watch?v=abc123XYZ
+#CLI Arguments\
+##Positional Argument\
+  ````url````\
+Description: YouTube URL to download the thumbnail and perform OCR.\
+Example: https://www.youtube.com/watch?v=abc123XYZ\
 
 
-##Optional Arguments
-  ````--api_key````
-**Description:** Gemini AI API key. If not provided, the script will attempt to read it from GeminiAPIKey.txt.
-**Example:** ````--api_key YOUR_API_KEY````
+##Optional Arguments\
+  ````--api_key````<br />
+**Description:** Gemini AI API key. If not provided, the script will attempt to read it from GeminiAPIKey.txt.<br />
+**Example:** ````--api_key YOUR_API_KEY````<br />
 
-  ````--candidates````
-**Description:** Maximum number of YouTube search results to consider per song. Default: 10.
-**Example:** ````--candidates 20````
+  ````--candidates````<br />
+**Description:** Maximum number of YouTube search results to consider per song. Default: 10.<br />
+**Example:** ````--candidates 20````<br />
 
-  ````--cookies````
-**Description:** Path to YouTube cookies file for authenticated downloads. Default: cookies.txt.
-**Example:** ````--cookies mycookies.txt````
+  ````--cookies````<br />
+**Description:** Path to YouTube cookies file for authenticated downloads. Default: cookies.txt.<br />
+**Example:** ````--cookies mycookies.txt````<br />
 
-  ````--tesseract````
-**Description:** Path to the Tesseract OCR executable. Default: C:\Program Files\Tesseract-OCR\tesseract.exe.
-**Example:** ````--tesseract "C:\Program Files\Tesseract-OCR\tesseract.exe"````
+  ````--tesseract````<br />
+**Description:** Path to the Tesseract OCR executable. Default: C:\Program Files\Tesseract-OCR\tesseract.exe.<br />
+**Example:** ````--tesseract "C:\Program Files\Tesseract-OCR\tesseract.exe"````<br />
 
-  ````--log````
-**Description:** File path to save URLs that have already been downloaded. Default: downloaded.txt.
-**Example:** ````--log downloaded_videos.txt````
+  ````--log````<br />
+**Description:** File path to save URLs that have already been downloaded. Default: downloaded.txt.<br />
+**Example:** ````--log downloaded_videos.txt````<br />
 
-  ````--cantfind````
-**Description:** File path to save songs that could not be found or matched. Default: cantfind.txt.
-**Example:** ````--cantfind missing_songs.txt````
+  ````--cantfind````<br />
+**Description:** File path to save songs that could not be found or matched. Default: cantfind.txt.<br />
+**Example:** ````--cantfind missing_songs.txt````<br />
 
-  ````--prefile````
-**Description:** File path for OCR prefiltered output. Default: prefiltered_ocr.txt.
-**Example:** ````--prefile ocr_prefilter.txt````
+  ````--prefile````<br />
+**Description:** File path for OCR prefiltered output. Default: prefiltered_ocr.txt.<br />
+**Example:** ````--prefile ocr_prefilter.txt````<br />
 
-  ````--ofile````
-**Description:** File path for filtered OCR output (after Gemini). Default: filtered_ocr.txt.
-**Example:** ````--ofile ocr_filtered.txt````
+  ````--ofile````<br />
+**Description:** File path for filtered OCR output (after Gemini). Default: filtered_ocr.txt.<br />
+**Example:** ````--ofile ocr_filtered.txt````<br />
 
-  ````--outdir````
-**Description:** Directory where audio files will be downloaded. Default: downloads.
-**Example:** ````--outdir my_music_downloads````
+  ````--outdir````<br />
+**Description:** Directory where audio files will be downloaded. Default: downloads.<br />
+**Example:** ````--outdir my_music_downloads````<br />
 
