@@ -1,0 +1,2 @@
+#Follow https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies
+#Paste Your YouTube Cookies Below
