@@ -15,14 +15,14 @@ This Python script performs the following:
 **Basic Usage (Bash):** python SongRipper.py https://www.youtube.com/watch?v=abc123XYZ
 
 
-#CLI Arguments\
-##Positional Argument\
-  ````url````\
-Description: YouTube URL to download the thumbnail and perform OCR.\
-Example: https://www.youtube.com/watch?v=abc123XYZ\
+# CLI Arguments<br />
+## Positional Argument<br />
+  ````url````<br />
+Description: YouTube URL to download the thumbnail and perform OCR.<br />
+Example: https://www.youtube.com/watch?v=abc123XYZ<br />
 
 
-##Optional Arguments\
+## Optional Arguments<br />
   ````--api_key````<br />
 **Description:** Gemini AI API key. If not provided, the script will attempt to read it from GeminiAPIKey.txt.<br />
 **Example:** ````--api_key YOUR_API_KEY````<br />
